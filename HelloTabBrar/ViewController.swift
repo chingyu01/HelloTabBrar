@@ -12,6 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tabBarItem.title = "高鐵時刻"
+        tabBarItem.badgeValue = "1"
+        tabBarItem.badgeValue = nil
+        //tabBarItem.image = UIImage(name: )
+        tabBarController?.tabBar.tintColor = UIColor.red
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
